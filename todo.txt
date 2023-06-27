@@ -1,0 +1,57 @@
+-Create a vue3 project
+	-Install Axios
+	-Install Tailwind
+	-Make sure everything is running
+-Set up the app.vue file (Menu, etc)
+-Create static sign up page
+-Create static log in page
+-Create static feed page
+-Create static messages page
+-Create static search page
+-Create a toast component
+-Set up the backend
+	-Create virtual environment
+	-Install Django
+	-Install djangorestframework
+	-Install djangorestframework-simplejwt
+	-Install Pillow
+	-Create Django Project
+	-Set up everything
+		-Config for jwt (settings and urls)
+		-Config for drf
+		-Config for csrf and cors
+	-Create app for custom usermodel (remember uuid)
+		-Add to settings
+	-Make it possible to sign up
+		-Implement verification, reset/forgot password and similar (Comes later in the course)
+	-Make it possible to log in (get and refresh token)
+	-Create app for posts
+		-Database model (remember uuid)
+			-For the post
+			-For the attachements
+		-Set up serializers
+		-View/URLs
+		-Get a test feed
+	-Make it possible to add text posts
+	-Make it possible to view a profile
+	-Set up friendship (model changes)
+	-Make it possible to send friend request
+	-Make it possible to accept friend requests
+	-Update feed to include your friends posts
+	-Make it possible to like a post
+	-Make it possible to discuss a post
+	-Set up a simple search
+	-Create app for messages
+		-Models (remember uuid)
+		-Serializers/views/urls for messages
+	-Show messages (list) in the frontend
+	-Show messages (detail) in the frontend
+	-Make it possible to send a message
+	-Make it possible to start a conversation
+	-Road map
+		-Verify your email address on sign up
+		-Change/forgot password
+		-Notifications
+		-Image attachements
+		-Suggest friends
+		-Trends
